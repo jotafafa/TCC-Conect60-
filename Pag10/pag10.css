@@ -43,7 +43,7 @@ body {
     flex: 1;
     /* Substitua pelo caminho da sua imagem de fisioterapia */
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
-                url('imagens/2.svg') no-repeat center center/cover;
+                url('imagens/imagem-login.svg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
