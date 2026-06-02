@@ -100,9 +100,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -30px;
-    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
     font-size: 40px;
+    font-weight: 700;
 }
 
 .box-input {
@@ -150,7 +151,7 @@ body {
 /* Customização do input de arquivo (PDF) */
 input[type="file"] {
     font-size: 16px;
-    color: #555;
+    color: #555555;
     cursor: pointer;
     width: 100%;
     height: 25px;
@@ -200,7 +201,6 @@ input::placeholder {
     border: transparent;
     font-size: 15px;
     cursor: pointer;
-    margin-left: -120px;
 }
 
 .cadastro .opçao1:hover {
