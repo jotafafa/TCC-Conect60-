@@ -157,7 +157,7 @@ input::placeholder {
 }
 
 .cadastro .opçao {
-    color: #4e4e4e;
+    color: #555555;
     background-color: transparent;
     border: transparent;
     font-size: 16px;
@@ -167,19 +167,6 @@ input::placeholder {
 }
 
 .cadastro .opçao:hover {
-    color: black;
-}
-
-.cadastro .opçao1 {
-    color: #4e4e4e;
-    background-color: transparent;
-    border: transparent;
-    font-size: 15px;
-    cursor: pointer;
-    margin-left: -150px; /* Reposicionado para manter harmonia com o texto no canto */
-}
-
-.cadastro .opçao1:hover {
     color: black;
 }
 
