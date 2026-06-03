@@ -54,7 +54,7 @@ body {
 .login-card {
     background-color: #ffffff;
     width: 100%;
-    max-width: 420px;
+    max-width: 500px;
     padding: 40px 35px;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
@@ -63,7 +63,7 @@ body {
 
 .login-card h2 {
     color: #0099b0;
-    font-size: 28px;
+    font-size: 42px;
     margin-bottom: 30px;
     font-weight: 600;
 }
@@ -79,7 +79,7 @@ body {
     padding: 12px 15px 12px 45px; /* Espaço para o ícone */
     border: 2px solid #0099b0;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 22px;
     color: #333;
     outline: none;
     transition: all 0.3s ease;
@@ -108,7 +108,7 @@ body {
 
 .forgot-password a {
     color: #666;
-    font-size: 13px;
+    font-size: 20px;
     text-decoration: none;
     transition: color 0.2s;
 }
@@ -126,7 +126,7 @@ body {
     color: white;
     border: none;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.1s;
