@@ -1,4 +1,3 @@
-/* CORREÇÃO GLOBAL: Sem forçar flexbox estrutural em elementos de texto */
 * {
     box-sizing: border-box;
     font-family: "Martel Sans", sans-serif;
@@ -33,10 +32,10 @@ body {
     color: #01a1b3;
 }
 
-/* Aba de Entrar sem seta e totalmente centralizada no espaço */
+/* Aba de Entrar no topo - Cor padrão #01a1b3 */
 .aba-entrar-topo {
     text-decoration: none;
-    color: #01a1b3;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 700;
     border: 2px solid #01a1b3;
@@ -46,14 +45,14 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-    background-color: transparent;
+    background-color: #01a1b3;
     cursor: pointer;
 }
 
-/* Animação ao passar o mouse */
+/* Efeito Hover - Fica branco com texto azul */
 .aba-entrar-topo:hover {
-    background-color: #01a1b3;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #01a1b3;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(1, 161, 179, 0.2);
 }
@@ -169,14 +168,14 @@ input::placeholder {
     text-align: left;
 }
 
-/* Botão Entrar / Cadastrar */
+/* Botão do formulário da página 2 */
 .cadastro .entrar {
     color: #ffffff;
     background-color: #01a1b3;
     border-radius: 30px;
     width: 300px;
     height: 50px;
-    border: transparent;
+    border: 3px solid transparent;
     font-size: 22px;
     font-weight: 600;
     display: flex;
@@ -184,13 +183,14 @@ input::placeholder {
     justify-content: center;
     align-content: center;
     margin-top: 5px;
+    transition: all 0.3s ease;
 }
 
+/* Efeito Hover do botão do formulário - Fica branco com texto azul */
 .cadastro .entrar:hover {
     cursor: pointer;
     background-color: #ffffff;
     border: 3px solid #01a1b3;
-    transition: background-color 0.3s ease;
     color: #01a1b3;
     transform: scale(1.05);
 }
@@ -207,7 +207,6 @@ input::placeholder {
     color: black;
 }
 
-/* ALTERADO: Aumentada a margin-top para empurrar e abaixar mais a imagem central */
 .informaçoes {
     display: flex;
     flex-direction: row;
@@ -261,7 +260,6 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .info-rodape{
