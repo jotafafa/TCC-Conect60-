@@ -9,9 +9,14 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.body {
-    margin: 0;
-    padding: 0;
+/* Linha do Topo / Header padronizada */
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ffffff;
 }
 
 .logo {
@@ -20,10 +25,31 @@ body {
     font-size: 40px;
     font-style: normal;
     color: #01a1b3;
-    margin-left: 40px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
+}
+
+/* Aba de Entrar sem seta e totalmente centralizada no espaço */
+.aba-entrar-topo {
+    text-decoration: none;
+    color: #01a1b3;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #01a1b3;
+    padding: 8px 24px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Animação ao passar o mouse */
+.aba-entrar-topo:hover {
+    background-color: #01a1b3;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(1, 161, 179, 0.2);
 }
 
 .imagem1 {
@@ -55,7 +81,7 @@ body {
 .cadastro {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Voltou a centralizar o cadastro por completo */
+    align-items: center;
     justify-content: center;
     gap: 10px;
     width: 100%;
@@ -81,7 +107,7 @@ body {
     width: 300px;
     border-radius: 30px;
     align-items: center;
-    padding: 0 20px; /* Espaçamento interno confortável nas pontas */
+    padding: 0 20px;
 }
 
 .box-input .icon {
@@ -105,8 +131,8 @@ body {
     height: 25px;
     width: 100%;
     font-size: 16px;
-    text-align: left; /* Modificado: Coloca o texto digitado no canto esquerdo */
-    padding-left: 12px; /* Afasta o texto levemente para não grudar no ícone do círculo */
+    text-align: left;
+    padding-left: 12px;
 }
 
 .cadastro input:focus {
@@ -116,7 +142,7 @@ body {
 input::placeholder {
     font-size: 18px;
     font-weight: 300;
-    text-align: left; /* Modificado: Alinha os placeholders no canto esquerdo */
+    text-align: left;
 }
 
 .cadastro .entrar {
@@ -286,7 +312,6 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 .info-rodape{
