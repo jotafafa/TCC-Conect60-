@@ -14,18 +14,6 @@ body {
     padding: 0;
 }
 
-.simbolos {
-    color: #01a1b3;
-    font-size: 35px;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin-top: -70px;
-    margin-bottom: 15px;
-    gap: 15px;
-    margin-right: 30px;
-}
-
 .logo {
     font-family: "Train One", system-ui;
     font-weight: 400;
