@@ -21,6 +21,16 @@
 </head>
 
 <body>
+
+    <div class="acessibilidade-bar">
+        <span><i class="bi bi-universal-access"></i> Ferramentas de Acessibilidade:</span>
+        <button id="btn-contrast" class="btn-acess" onclick="toggleContrast()">
+            <i class="bi bi-circle-half"></i> Alto Contraste
+        </button>
+        <button class="btn-acess" onclick="changeFontSize(1)" title="Aumentar Texto">A+</button>
+        <button class="btn-acess" onclick="changeFontSize(-1)" title="Diminuir Texto">A-</button>
+    </div>
+
     <header>
         <div class="topo">
             <div class="logo">CONECT60+</div>
@@ -161,6 +171,8 @@
 
         </section>
     </footer>
+
+     <script src="pag1.js"></script>
 
 </body>
 
