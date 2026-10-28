@@ -9,6 +9,33 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/* --- Barra Superior de Acessibilidade --- */
+.acessibilidade-bar {
+    background-color: #0b2d32;
+    color: #ffffff;
+    padding: 8px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.btn-acess {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 4px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.btn-acess:hover {
+  background-color: var(--cor-primaria);
+}
+
 /* Topo / Header */
 .topo {
     display: flex;
@@ -345,4 +372,69 @@ input::placeholder {
 .link-rodape a{
     color: white;
     font-size: 16px;
+}
+
+/* ALTO CONTRASTE */
+body.high-contrast {
+    background-color: #000000 !important;
+    color: #ffff00 !important;
+}
+
+body.high-contrast header,
+body.high-contrast .topo,
+body.high-contrast .container,
+body.high-contrast .gallery-item,
+body.high-contrast .informaçoes,
+body.high-contrast .rodape,
+body.high-contrast .acessibilidade-bar {
+    background-color: #000000 !important;
+    background: #000000 !important;
+    border-color: #ffff00 !important;
+}
+
+body.high-contrast .logo,
+body.high-contrast .logo-rodape,
+body.high-contrast h1,
+body.high-contrast h2,
+body.high-contrast h3,
+body.high-contrast p,
+body.high-contrast a,
+body.high-contrast i,
+body.high-contrast label,
+body.high-contrast span,
+body.high-contrast div {
+    color: #ffff00 !important;
+    background: transparent !important;
+    -webkit-text-fill-color: #ffff00 !important;
+}
+
+body.high-contrast .box-input {
+    border-color: #ffff00 !important;
+    background-color: #000000 !important;
+}
+
+body.high-contrast .box-input input {
+    color: #ffff00 !important;
+    -webkit-text-fill-color: #ffff00 !important;
+}
+
+body.high-contrast .entrar,
+body.high-contrast .aba-entrar-topo,
+body.high-contrast .btn-acess {
+    background-color: #ffff00 !important;
+    background: #ffff00 !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    border: 2px solid #ffff00 !important;
+    font-weight: 900 !important;
+}
+
+body.high-contrast .entrar:hover,
+body.high-contrast .aba-entrar-topo:hover,
+body.high-contrast .btn-acess:hover {
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+    border-color: #ffffff !important;
 }
